@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inline and Block Elements</title>
+    <style>
+        .block-element{
+            border: 2px solid red;
+        }
+
+        .inline-element{
+            border: 2px solid blue;
+        }
+    </style>
 </head>
 <body>
-    <p>This is a paragraph</p>
+    <p class="block-element">This is a paragraph</p>
+    <p class="block-element">This is also a paragraph</p>
+    <div class="block-element">This is div</div>
+    <span class="inline-element">This is span</span>
+    <span class="inline-element">This is also a span</span>
+    <Strong class="inline-element">This is strong</Strong>
+    <a href="#" class="inline-element">Anchor tag</a>
+
+    <ul class="block-element">
+        <li class="block-element">List 1</li>
+        <li>List 2</li>
+    </ul>
+
+    <em class="inline-element">Em Tag</em>
+
+    <img class="inline-element" src="asset/yor.jpg" alt="">
 </body>
 </html>
